@@ -10,9 +10,9 @@ public class Quantum {
     }
 
     public static void main(String[] args) {
-        message().log(Level.INFO, "Starting application..");
+        message().log(Level.INFO, "Starting application...");
         Application app = new Application();
         app.run();
-        message().log(Level.INFO, "Closing application");
+        message().log(Level.INFO, "Closing application...");
     }
 }

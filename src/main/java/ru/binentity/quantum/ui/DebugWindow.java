@@ -34,7 +34,7 @@ public class DebugWindow implements Drawable {
 
     private void initializeText() {
         try {
-            UIFont.loadFromFile(Path.of("/home/top/mono.ttf"));
+            UIFont.loadFromFile(Path.of("C:/mono.ttf"));
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

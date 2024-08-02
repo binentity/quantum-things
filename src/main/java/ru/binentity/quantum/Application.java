@@ -22,8 +22,8 @@ import java.util.logging.Logger;
 public class Application {
 
     private final String TITLE = "0.01 Model";
-    private final int WINDOW_WIDTH = 5000;
-    private final int WINDOW_HEIGHT = 3000;
+    private final int WINDOW_WIDTH = 2500;
+    private final int WINDOW_HEIGHT = 1440;
 
     private final VideoMode mode;
     private final RenderWindow window;
@@ -70,7 +70,7 @@ public class Application {
         lines.add(new LineShape(new Vector2f(1500 + 25, 1500 + 25), new Vector2f(500 + 25, 500 + 25)));
 
         try {
-            debug.loadFromFile(Path.of("/home/top/mono.ttf"));  //NOTE: IO method
+            debug.loadFromFile(Path.of("C:/mono.ttf"));  //NOTE: IO method
 
             info.setString("Planet system!");
             info.setFont(debug);
