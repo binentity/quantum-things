@@ -2,7 +2,6 @@ package ru.binentity.quantum.components;
 
 import org.jsfml.graphics.*;
 import org.jsfml.system.Clock;
-import org.jsfml.system.Time;
 import org.jsfml.system.Vector2f;
 
 public class PlanetEntity extends QuantableEntity implements Drawable {
